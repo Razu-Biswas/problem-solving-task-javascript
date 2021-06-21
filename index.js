@@ -1,3 +1,4 @@
+//problem solving left rotate
 function rotate(arr,rotatedTimes){
     let length=arr.length;
     for(let i=0;i<rotatedTimes;i++){
@@ -10,7 +11,7 @@ function rotate(arr,rotatedTimes){
     }
     console.log(arr)
 }
-
+//function call and input
 rotate([1,2,3,4,5],4)
 
 
